@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    font-size: 3.5em;
+    padding: .5em;
+    background-image: linear-gradient(to bottom right,  lightblue, transparent);
+    margin-bottom: .5em;
+}
+
+header, h1 {
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+}
+
+.current-weather-container {
+    border: solid 3px black;
+    padding: 1em;
+    border-radius: 15px;
+    background-image: linear-gradient( lightblue, transparent);
+}
+
+.my-card {
+    border: solid 3px black;
+    width: 12.42em;
+    border-radius: 15px;
+    margin: .3em;
+    padding: .4em;
+    background-color: lightblue;
+}
+
+form {
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.city-search {
+    width: 100%;
+    margin-bottom: .5em;
+    background-color: azure;
+}
+
+.card-icon {
+    height: 3.5em;
+    width: 3.5em;
+}
+
+.index-bar {
+    width: max-content;
+}

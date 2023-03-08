@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani&family=MuseoModerno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>Weather Dashboard</header>
+    <div class="container-fluid">
+        <div class="row">
+            <container class="col-sm-3">
+                <form>
+                    <input type="text" id="citySearch" class="city-search" placeholder="Search for a city..">
+                    <button type="submit" id="searchBtn" class="search-btn btn btn-secondary btn-block">Search</button>
+                </form>
+                <div id="cityBtns" class="city-btns"></div>
+            </container>
+            <container class="col-sm-9">
+                <h1>Current Weather</h1>
+                <div id="currentWeatherContainer" class="current-weather-container">
+                    <h2 id="cityName" class="city-name"></h2>
+                    <h4 id="date" class="date"></h4>
+                    <img id="icon" class="icon" />
+                    <h4 id="temp" class="temp"></h4>
+                    <h4 id="wind" class="wind"></h4>
+                    <h4 id="humidity" class="humidity"></h4>
+                    <div class="index-bar">
+                        <h4 id="uvIndex" class="uv-index"></h4>
+                    </div>
+                </div>
+                <div id="forecastContainer" class="forecast-container card-group"></div>
+            </container>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
