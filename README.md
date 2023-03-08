@@ -20,4 +20,6 @@ THEN I am again presented with current and future conditions for that city
 Mock-up
 ![image](https://user-images.githubusercontent.com/121911679/223815382-2e9c5e02-abeb-472e-98dd-c7117d4eabdd.png)
 
-URL to deployed website: 
+URL to deployed website: https://sukhsingh96.github.io/weather-dashboard/
+
+There is an issue with my api key thats not pulling the five-day forecast, tried creating and using multiple api codes to no avail.
